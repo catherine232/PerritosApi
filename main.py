@@ -7,7 +7,12 @@ def index():
     return "Hola a todos, quieres saber de perritos"
 @app.get("/Perrito/{num}")
 def perrito(num):
-    return num 
+    perritos={
+    "1": "Chihuahua",
+    "2": "Pitbul"
+    
+    }
+    return perritos{num} 
 @app.get("/Conversor_CaF/{C}")
 def conversorCaF(C):
     try:
