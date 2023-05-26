@@ -25,13 +25,13 @@ def conversorCaF(C):
 def revisar_edades(E1,E2):
     E1=int(E1)
     E2=int(E2)
-    if E1>E2=30:
+    if E1>E2+30:
         return "Podrias ser su abuelo"
     elif E1>E2+15:
         return "Podrias ser su padre"
     elif E1>E2:
         return "Eres mayor"
-    elif E2>E1=30:
+    elif E2>E1+30:
         return "Podria ser tu abuelo"
     elif E2>E1+15:
         return "Podria ser tu padre"
