@@ -31,7 +31,7 @@ def revisar_edades(E1,E2):
         return "Podrias ser su padre"
     elif E1>E2:
         return "Eres mayor"
-    if E2>E1=30:
+    elif E2>E1=30:
         return "Podria ser tu abuelo"
     elif E2>E1+15:
         return "Podria ser tu padre"
